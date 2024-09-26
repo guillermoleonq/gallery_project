@@ -1,10 +1,10 @@
-import paisaje5 from '../assets/img/paisaje5';
+import paisaje5 from '../assets/img/paisaje5.jpg';
 import PropTypes from 'prop-types';
 
-export const Paisaje5 = ( {props} ) => {
+export const Paisaje5 = ( {className} ) => {
   return (
     <img src={paisaje5} alt="Caño Cristales" 
-    className={props.className} />
+    className={className} />
   )
 }
 
